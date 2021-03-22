@@ -10,7 +10,7 @@
 This project is a simple weather app.
 
 ## Screenshots
-![Overview](screen1.JPG.PNG)
+![Overview](screen1.JPG)
 
 
 ## Features
