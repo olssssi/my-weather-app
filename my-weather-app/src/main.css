@@ -70,7 +70,7 @@ main{
     font-size: 102px;
     font-weight: 600;
     margin: 30px 0px;
-    text-shadow: 4px 15px rgba(0,0,0,0.3);
+    text-shadow: 4px 15px rgba(0,0,0,0.2);
 }
 
 .current .temp span{
@@ -95,4 +95,5 @@ main{
     border: 3px solid #ffcc33;
     border-radius: 16px 16px 16px 16px;
     width: 330px;
+    box-shadow: 0px 10px rgba(0,0,0,0.2);
 }
