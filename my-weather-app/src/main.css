@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+    font-weight: 400;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.app-wrap{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /*background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5));*/
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+}
+
+header input{
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 16px 16px 16px 16px;
+    border-bottom: 3px solid #ffcc33;
+    background-color: rgba(255,255,255,0.7);
+    font-family: 'Poppins';
+        font-weight: 300;
+        font-style: normal;
+        font-size: 20px;
+        transition: 0.2s ease-out;
+}
+
+header input:focus{
+    background-color: rgba(255,255,255,0.9);
+}
+
+main{
+    flex: 1 1 100#;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.location .city{
+    font-size: 32px;
+    magin-bottom: 5px;
+}
+
+.location .date{
+    font-size: 16px;
+}
+
+.current .temp{
+    font-size: 102px;
+    font-weight: 600;
+    margin: 30px 0px;
+    text-shadow: 4px 15px rgba(0,0,0,0.3);
+}
+
+.current .temp span{
+    font-weight: 400;
+}
+
+.current .weather{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(0,0,0,0.4);
+}
+
+.current .hi-low{
+    font-size: 24px;
+    font-weight: 400;
+    text-shadow: 0px 4px rgba(0,0,0,0.4);
+}
+
+.cont{
+    padding: 20px;
+    border: 3px solid #ffcc33;
+    border-radius: 16px 16px 16px 16px;
+    width: 330px;
+}
